@@ -16,7 +16,8 @@ h1 {
   color: #0bc8b6;
 }
 
-h2, h3 {
+h2,
+h3 {
   font-family: "Lato";
   color: #2b546a;
   font-weight: 300;
@@ -139,7 +140,69 @@ h3 {
 .modal-close-btn:hover {
   color: #8491a5;
   background-color: #ccd9ea;
-  transition: .3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.contact-container {
+  margin-top: 96px;
+}
+
+.contact-form p {
+  color: #8491a5;
+  margin-top: 32px;
+  margin-bottom: 8px;
+}
+
+.contact-form p.contact-message-error {
+  color: #ff4d75;
+  margin-top: 8px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  box-sizing: border-box;
+  background-color: #fff;
+  color: #8491a5;
+  width: 440px;
+  font-size: 16px;
+  padding: 10px;
+  border: 1px solid #bac6d3;
+  border-radius: 3px;
+  display: block;
+}
+
+.contact-form input {
+  height: 48px;
+}
+
+.contact-form textarea {
+  height: 184px;
+}
+
+.contact-form input[type=submit] {
+  color: #fff;
+  width: 184px;
+  height: 48px;
+  font-size: 13px;
+  background-color: #30c8d6;
+  border: none;
+  margin-top: 32px;
+}
+
+.contact-form input[type=submit]:hover {
+  cursor: pointer;
+}
+
+.contact-submit-message {
+  box-sizing: border-box;
+  color: #16a48a;
+  height: 200px;
+  line-height: 200px;
+  text-align: center;
+  font-size: 20px;
+  background-color: rgba(48, 214, 184, 0.16);
+  border: 2px solid #30d6b8;
+  border-radius: 3px;
 }
 
 .footer {
